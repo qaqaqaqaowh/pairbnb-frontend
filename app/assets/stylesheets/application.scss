@@ -47,6 +47,38 @@ body {
     letter-spacing: 4px;
     font-weight: lighter;
   }
+
+  @media screen and (max-width: 320px) {
+    .main-text {
+      font-size: 18px;
+    }
+
+    .sub-text {
+      font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .main-text {
+      font-size: 35px;
+    }
+
+    .sub-text {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-header {
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero-header {
+        height: 250px;
+    }
 }
 
 .container {
@@ -70,7 +102,17 @@ body {
   width: 50%;
   float: left;
 }
- 
+
+@media screen and (max-width: 400px) {
+    .para-one {
+        width: 100%;
+    }
+
+    .para-two {
+      width: 100%;
+    }
+}
+
 /*----- Menu -----*/
   .menu {
     width:100%;
@@ -135,6 +177,12 @@ body {
   color:#303030;
 }
 
+@media screen and (max-width: 400px) {
+    .menu {
+        display: none;
+    }
+}
+
 #footer {
   clear: both;
   position: relative;
@@ -153,4 +201,10 @@ body {
       display: inline;
     }
   }
+}
+
+@media screen and (max-width: 400px) {
+    #footer {
+        display: none;
+    }
 }
